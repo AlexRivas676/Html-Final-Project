@@ -1,0 +1,202 @@
+/* Author:Alex Rivas
+   Date:12-10-2021
+   file:Styles.css
+   Final Project*/
+   /*reset styles*/
+html{
+	font-size:1em;
+}
+a, article, body, div, footer, header, h1, h2, h3, nav{
+	border: 0;
+   padding: 0;
+   margin: 0;
+}
+/* body and container*/
+body{
+	background:url("images/Mexicobackground.jpg");
+	max-width:1020px;
+	margin:0 auto;
+}
+body div.container{
+	overflow:auto;
+}
+.container{
+	background-color:#8ea604; 
+	position:relative;
+	color:white;
+}
+
+header{ 
+	text-align: center;
+	font-size:2.5em;
+	font-family:Twinkle Star;
+}
+h2{
+	font-size:1.5em;
+	text-align:center;
+}
+.passport{
+	text-align: center;
+}
+.mexicanfood{
+	text-align:center;
+}
+.quinceaneracrown{
+	text-align:center;
+}
+.theworld{
+	text-align:center;
+}
+#flight{
+	font-size:2em;
+	font-weight:bold;
+}
+/*main content styling*/	
+article{
+	margin:0 1.5em 1.5em;
+	padding: 1.5em 1.5em 1em;
+	font-family:Sofia;	
+}
+}
+ article div.container{
+	overflow:auto;
+}
+ol,li{
+	text-align:center;
+}
+table{
+	width:90%;
+	border:5px solid black;
+	border-collapse:collapse;
+	border-spacing:1;
+	text-align:center;
+}
+th,td{
+	border:4px solid black;
+	 padding: 0.4em 0.7em;
+}
+th{
+	background-color:#6B6C7D;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+}
+td{
+	background-color:#E3DBCA;
+	color:black;
+}
+/*aside bar styling*/
+aside {
+   width: 30%;
+   height:30%;
+   padding: 4% 4% 4%;
+   float: right;
+   background-color:#bf3100;
+   color:white;
+}
+aside p{
+	padding: 0.6em;
+   margin-bottom: 0.7em;
+   font-size: 1.5em;
+   font-weight:bold;
+	text-align:center;
+}
+aside  ul{
+	list-style-image:url(images/musicnote.ico);
+	margin-left:1.5em;
+}
+/*footer styling*/
+footer{
+	background-color: #ff4e00;
+	text-align:center;
+	padding: 1.5% 1.5% 1.5% 4%;
+	clear:both;
+}
+/* link styling*/
+a:link{
+	color:black;
+}
+/*nav bar styling*/
+nav.sitenavigation{
+	width:100%;
+	text-align:center;
+	background-color:#f5bb00;
+	margin: 0.5em 0;
+	height:10%;
+}
+nav.sitenavigation p{
+	display:inline-block;
+	padding: 1.5em 0;
+}
+nav.sitenavigation a{
+	padding:0.3em 0.7em;
+}
+/*skip nav styling*/
+p.skipnav{
+	margin:0;
+}
+p.skipnav a{
+	position:absolute;
+	left:-1000px;
+}
+p.skipnav a:focus{
+	color:black;
+	background-color:#ffd6e0;
+	top:3%;
+	left:auto;
+	right:3%;
+	z-index:3;
+	font-weight:bold;
+}
+
+/* map styling*/
+p.worldmap{
+	text-align:center;
+}
+/* form styling*/
+form{
+	padding: 5%;
+	margin:5%;
+	border: 4px solid black;
+	background-color: #ec9f05;
+}
+/*field set styling*/
+fieldset{
+	margin:0 0 1.5em 1.5em;
+}
+legend{
+	margin: 0 0 0.7em -1.5em;
+	font-size:2em;
+	font-weight:bold;
+}
+/*field styling*/
+input{
+	border:2px solid black;
+	margin: 0.4em 0.4em 0.4em 0.4em;
+}
+
+.Fullname input{
+	position:absolute;
+	left:7em;
+}
+#fullnameinput,#perferredemailinput,#mobilenumberinput{
+	width:15em;
+}
+#submit{
+	marigin:none;
+}
+/* label styling*/
+label{
+	font-size: 1.2em;
+}
+.personalinfo label{
+	margin:0.8em 0;
+	display:block;
+	position:relative;
+}
+.flightdateinfo input{
+	margin-right: 0.7em;
+}
+	
+	
+ 
